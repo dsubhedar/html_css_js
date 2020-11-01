@@ -1,0 +1,102 @@
+body {
+  font-size: 16px;
+  font-family: 'Oxygen', sans-serif;
+}
+.navbar-brand{
+  font-size: 32px;
+  font-weight: bold;
+ margin-left: 10px;
+}
+header{
+  font-weight: bold;
+  font-size:24px;
+}
+.navbar.navbar-default {
+  border-color: black;
+  border-style: solid;
+  border-left:none;
+  border-right:none;
+  border-radius: 0px;
+}
+
+a.menu-item {
+  background-color: white;
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold;
+  color:black;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+.navbar-default .navbar-brand { 
+  color:black;
+}
+.section-para {
+  background-color: #CCCC;
+  min-height: 1000px;
+  display: block;
+  width: 98%;
+  margin:auto;
+  padding: 5px;
+}
+h1 {
+  text-align: center;
+  font-size:20px;
+  font-weight: bold;
+  padding-top: 4px;
+  padding-bottom: 5px;
+}
+@media (max-width: 768px) {
+#bs-navbar-collapse-1{
+  background-color: white;
+  padding-bottom: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+.nav.navbar-nav{
+ margin-top: -21px;
+
+}
+.borderlist {
+    list-style-position:inside;
+    border: 1px solid black;
+}
+.middleborderlist {
+    list-style-position:inside;
+    border-right: solid black;
+    border-right-width: 1px;
+    border-left: 1px solid black;
+}
+.container-fluid {
+  background-color: white;
+  border-color: white;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+div.navbar-header {
+  background-color: #e7e7e7;
+  border-color: black;
+  border-bottom: 1px;
+  border-top:0px;
+  border-left:0px;
+  border-right: 0px;
+  border-style: solid;
+  border-radius: 0px;
+}
+.navbar.navbar-default{
+  border-color: black;
+  border-style: solid;
+  border-left:none;
+  border-right:none;
+  border-bottom: none;
+  border-radius: 0px;
+}
+.section-para {
+  background-color: #CCCC;
+  min-height: 1000px;
+  display: block;
+  width: 75%;
+  margin:auto;
+  padding: 5px;
+}
+}
